@@ -73,7 +73,7 @@ let node = svg.append("g")
     // mouse over
     .on("mouseover", (event, d) => {
         d3.select(".tooltip")
-        .text("Age: " + d.age +"Occupation: " + d.occupation + " Serology: " + d.serology + " Vaccinated: " + d.vaccinated)
+        .text("Age: " + d.age +" Occupation: " + d.occupation + " Serology: " + d.serology + " Vaccinated: " + d.vaccinated)
         .style("position", "absolute")
         .style("width", "100px")
         .style("border", "1px solid")
